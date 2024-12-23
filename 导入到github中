@@ -1,14 +1,11 @@
 # 导入文件
 使文件夹变成Git可管理的仓库
-
 git init
 这时你会发现文件夹里面多了个.git文件夹，它是Git用来跟踪和管理版本库的。该文件夹为隐藏文件夹。
 添加文件到仓库
 git add .
 通过git add .把刚才复制过来的项目全部添加到仓库把项目提交到仓库
-
 把项目提交到仓库
-
 git commit -m "提交理由"
 提交到仓库
 
@@ -27,8 +24,6 @@ vim id_rsa.pub
 
 https://github.com/settings/keys
 本地仓库与GitHub关联
-
+git branch -M main
 git remote add origin [SHH]
-上传项目
-
 git push -u origin master
